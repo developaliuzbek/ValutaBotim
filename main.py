@@ -22,7 +22,7 @@ async def valyuta(message: Message):
             natija=conversiya['conversion_result']
             await message.answer(f"us {pul} dollar --> uz {natija} so'm")
         else:
-            await message.reply("Sonni kirit")
+            await message.reply("Sonni kiriting")
     
 
 if __name__ == '__main__':
