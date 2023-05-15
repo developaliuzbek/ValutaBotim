@@ -6,7 +6,7 @@ from api import airboshla
 
 logging.basicConfig(level=logging.INFO)
 
-bot=Bot(token='5897198043:AAEPq4jtsniDUeGDJpITeiOH5xhOqD5UAe4')
+bot=Bot(token=' token yoziladi')
 dp=Dispatcher(bot)
 
 @dp.message_handler(commands='start')
